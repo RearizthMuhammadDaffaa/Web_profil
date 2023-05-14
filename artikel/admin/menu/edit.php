@@ -80,7 +80,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <div class="form-group">
                                             <label for="nama_menu">Nama Menu</label>
-                                            <input type="text" class="form-control" value="<?= $row_nama_menu ?>" name="nama_menu" required <?php if ($row_username == 'admin') { ?> readonly <?php } ?>>
+                                            <input type="text" class="form-control" value="<?= $row_nama_menu ?>" name="nama_menu" required >
                                         </div>
                                         <button class="btn btn-primary" type="submit" name="update">Simpan</button>
 
